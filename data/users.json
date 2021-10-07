@@ -1,0 +1,35 @@
+[
+    {
+        "firstName": "Rafael",
+        "lastName": "Rojas",
+        "username": "irarr.online@gmail.com",
+        "hash": "$2a$10$FiRAW3UJWcdyiOriWjOnlOtS8VKk6ZCqRvysvxjOFCslGxoUonFXO",
+        "id": 1,
+        "dateCreated": "2021-10-05T09:35:41.267Z",
+        "dateUpdated": "2021-10-05T09:35:41.267Z",
+        "lastLogin": "",
+        "currentLogin": "2021-10-06T10:40:12.792Z"
+    },
+    {
+        "firstName": "user",
+        "lastName": "test",
+        "username": "usertest@test.com",
+        "hash": "$2a$10$HdDO.X78Czxm/9G0Zx5GweXNnATI6ByK4foglrFYoe26I.L2JiZnS",
+        "id": 2,
+        "dateCreated": "2021-10-06T10:44:49.757Z",
+        "dateUpdated": "2021-10-06T10:44:49.757Z",
+        "currentLogin": "2021-10-06T17:05:49.397Z",
+        "lastLogin": "2021-10-06T17:03:31.987Z"
+    },
+    {
+        "firstName": "Neryus",
+        "lastName": "Ainagas",
+        "username": "draneryusainagasv@gmail.com",
+        "hash": "$2a$10$K/ke8e3x/lzGMJrqlJdAH.uy/HRkmsPRvm0P0bnIHJHjQQNtw.0/u",
+        "id": 3,
+        "dateCreated": "2021-10-06T17:31:09.532Z",
+        "dateUpdated": "2021-10-06T17:31:09.532Z",
+        "currentLogin": "2021-10-07T08:10:30.890Z",
+        "lastLogin": "2021-10-07T07:46:08.855Z"
+    }
+]

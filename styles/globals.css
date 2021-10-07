@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+a { cursor: pointer; }
+
+.app-container {
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 100%;
+}
+
+
+
+
+ @media only screen and (max-width: 767px) {
+    .content-light{
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: .25rem;
+    }
+    .content-light form {
+        padding:40px;
+        border-radius:4px;
+    }
+    .content-light .illustration {
+        text-align:center;
+        padding:15px 0 20px;
+        font-size:100px;
+        color:#2980ef;
+    }
+    .content-light form .form-control {
+        background:none;
+        border:none;
+        border-bottom:1px solid #434a52;
+        border-radius:0;
+        box-shadow:none;
+        outline:none;
+        color:inherit;
+        font-size: 0.9rem;
+    }
+    .content-light form .btn-primary {
+        background:#214a80;
+        border:none;
+        border-radius:2px;
+        padding:11px;
+        box-shadow:none;
+        margin-top:26px;
+        text-shadow:none;
+        outline:none;
+        font-size: 0.9rem;
+    }
+    .content-light form .btn-primary:hover, .login-light form .btn-primary:active {
+        background:#214a80;
+        outline:none;
+    }
+    .content-light form .btn-danger {
+        background:#dc3545;
+        border:none;
+        border-radius:2px;
+        padding:11px;
+        box-shadow:none;
+        margin-top:26px;
+        text-shadow:none;
+        outline:none;
+        font-size: 0.9rem;
+    }
+    .content-light form .btn-danger:hover, .login-light form .btn-danger:active {
+        background:#dc3545;
+        outline:none;
+    }
+    .content-light form .forgot {
+        display:block;
+        text-align:center;
+        font-size:12px;
+        color:#6f7a85;
+        opacity:0.9;
+        text-decoration:none;
+    }
+    .content-light form .forgot:hover, .login-light form .forgot:active {
+        opacity:1;
+        text-decoration:none;
+    }
+    .content-light form .btn-primary:active {
+        transform:translateY(1px);
+    }
+    .content-light h1{
+        font-weight: 800;
+    }
+    #timer {
+        margin-top: -20px;
+    }
+    #timer div {
+        width: 70px;
+        height: 70px;
+        font-size: 2.5rem;
+        margin-top: 20px;
+        font-weight: 700;
+        color: #6e7377;
+   }
+   #timer div span {
+        margin-top: -2px;
+        font-size: 1.0rem;
+        font-weight: 600;
+        color: #6e7377;
+    }    
+ }
+ @media only screen and (min-width: 768px) {
+    #timer {
+        margin-top: -20px;
+    }
+    #timer div {
+        color: #6e7377;
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        font-size: 35px;
+        font-weight: 700;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #timer div span {
+        display: block;
+        margin-top: -2px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #6e7377;
+    }
+    .content-light{
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: .25rem;
+    }    
+    .content-light form {
+        padding:40px;
+        border-radius:4px;
+    }      
+    .content-light .illustration {
+        text-align:center;
+        padding:15px 0 20px;
+        font-size:100px;
+        color:#2980ef;
+    }      
+    .content-light form .form-control {
+        background:none;
+        border:none;
+        border-bottom:1px solid #434a52;
+        border-radius:0;
+        box-shadow:none;
+        outline:none;
+        color:inherit;
+        font-size: 0.9rem;
+    }    
+    .content-light form .btn-primary {
+        background:#214a80;
+        border:none;
+        border-radius:2px;
+        padding:11px;
+        box-shadow:none;
+        margin-top:26px;
+        text-shadow:none;
+        outline:none;
+        font-size: 0.9rem;
+    }    
+    .content-light form .btn-primary:hover, .login-light form .btn-primary:active {
+        background:#214a80;
+        outline:none;
+    }    
+    .content-light form .forgot {
+        display:block;
+        text-align:center;
+        font-size:12px;
+        color:#6f7a85;
+        opacity:0.9;
+        text-decoration:none;
+    }    
+    .content-light form .forgot:hover, .login-light form .forgot:active {
+        opacity:1;
+        text-decoration:none;
+    }    
+    .content-light form .btn-primary:active {
+        transform:translateY(1px);
+    }
+ }
